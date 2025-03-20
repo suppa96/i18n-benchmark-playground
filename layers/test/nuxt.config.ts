@@ -1,5 +1,8 @@
+import en from "../../locales/en.json";
+import fr from "../../locales/fr.json";
+
 export default defineNuxtConfig({
-  modules: ["@nuxtjs/storybook", "@nuxt/icon", "nuxt-i18n-micro"],
+  modules: ["@nuxtjs/storybook", "@nuxt/icon", "@nuxtjs/i18n"],
   icon: {
     customCollections: [
       {
@@ -14,9 +17,10 @@ export default defineNuxtConfig({
       { code: "fr", iso: "fr-FR", dir: "ltr" },
     ],
     defaultLocale: "en",
-    translationDir: "./locales",
-    meta: true,
-    debug: true,
     strategy: "prefix_except_default",
+    messages: {
+      en,
+      fr,
+    },
   },
 });

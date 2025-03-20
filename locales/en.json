@@ -1,4 +1,10 @@
 {
   "welcome": "Welcome to the app",
-  "i18nTest": "This is a test for i18n"
+  "i18nTest": "This is a test for i18n",
+  "dynamicId": {
+    "i18nTestComponent": "I'm the string inside the dynamic page"
+  },
+  "index": {
+    "i18nTestComponent": "I'm the string inside the home page"
+  }
 }

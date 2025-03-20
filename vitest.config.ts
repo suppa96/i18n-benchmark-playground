@@ -60,7 +60,7 @@ export default mergeConfig(
       // https://vitest.dev/config/#isolate
       // Consider removing this if you have flaky tests
       // isolate: false,
-      setupFiles: [".storybook/vitest.setup.ts", "tests/unit-setup.ts"],
+      setupFiles: [".storybook/vitest.setup.ts"],
     },
   })
 );

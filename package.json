@@ -19,10 +19,10 @@
   },
   "dependencies": {
     "@nuxt/icon": "^1.11.0",
+    "@nuxtjs/i18n": "^9.3.2",
     "@nuxtjs/tailwindcss": "^6.13.2",
     "nuxt": "^3.16.1",
     "nuxt-app": ".",
-    "nuxt-i18n-micro": "^1.79.0",
     "vue": "latest",
     "vue-router": "latest"
   },
@@ -40,7 +40,6 @@
     "@types/node": "^18.19.80",
     "@vitest/browser": "^2.1.9",
     "axe-playwright": "^2.1.0",
-    "nuxt-i18n-micro-test-utils": "^1.0.6",
     "playwright": "^1.51.1",
     "storybook": "8.4.2",
     "vitest": "^2.1.9"

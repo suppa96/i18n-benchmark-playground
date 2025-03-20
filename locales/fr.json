@@ -1,4 +1,10 @@
 {
   "welcome": "Bienvenue dans l'application",
-  "i18nTest": "Ceci est un test pour i18n"
+  "i18nTest": "Ceci est un test pour i18n",
+  "dynamicId": {
+    "i18nTestComponent": "Je suis la chaîne de caractères à l'intérieur de la page dynamique"
+  },
+  "index": {
+    "i18nTestComponent": "Je suis la chaîne de caractères à l'intérieur de la page d'accueil"
+  }
 }
